@@ -8,4 +8,6 @@
 # How to implement snippet in VS code
 In your `Javascript` or `Typescript` file, just type in `rcxt`, once a drop down appears, click enter, then name your context.
 
+
+
 # You're welcome!! ✔🎉💕
