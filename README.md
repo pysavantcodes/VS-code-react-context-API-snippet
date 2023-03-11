@@ -1,2 +1,2 @@
-# VS-code-react-context-API-snippet
+# How to use
 React Context API Snippet for VS Code
