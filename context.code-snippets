@@ -1,0 +1,25 @@
+{
+  "React Context Snippet": {
+    "scope": "javascript,typescript",
+    "prefix": "rcxt",
+    "body": [
+      "import React, { createContext, useContext } from 'react';",
+      "",
+      "const ${1:name}Context = createContext();",
+      "",
+      "export const use${1:name} = () => {",
+      "  return useContext(${1:name}Context);",
+      "};",
+      "",
+      "const ${1:name}Provider = ({ children }) => {",
+      "",
+      "",
+      "  const value = {};",
+      "  return <${1:name}Context.Provider value={value}>{children}</${1:name}Context.Provider>;",
+      "};",
+      "",
+      "export default ${1:name}Provider;"
+    ],
+    "description": "Snippet for creating react context structure"
+  }
+}
